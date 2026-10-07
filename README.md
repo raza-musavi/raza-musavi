@@ -1,5 +1,5 @@
 <!-- ===== Animated header ===== -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:3B82F6,100:8B5CF6&height=220&section=header&text=Hi%2C%20I'm%20Revonix&fontSize=52&fontColor=FFFFFF&fontAlignY=38&desc=Full-Stack%20Developer%20%C2%B7%20Indie%20SaaS%20Founder&descSize=18&descAlignY=60&animation=fadeIn" alt="Header" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:3B82F6,100:8B5CF6&height=220&section=header&text=Hi%2C%20I'm%20Reza&fontSize=52&fontColor=FFFFFF&fontAlignY=38&desc=Full-Stack%20Developer%20%C2%B7%20Indie%20SaaS%20Founder&descSize=18&descAlignY=60&animation=fadeIn" alt="Header" />
 
 <!-- ===== Typing line ===== -->
 <p align="center">
