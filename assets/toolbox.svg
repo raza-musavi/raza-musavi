@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="60" viewBox="0 0 850 60" role="img" aria-labelledby="title">
+  <title id="title">Bubble, APIs and Webhooks, Stripe, Twilio, GitHub</title>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="15" font-weight="600" text-anchor="middle">
+    <rect x="0" y="8" width="130" height="43" rx="10" fill="#171326" stroke="#3e305b"/><text x="65" y="35" fill="#d6c3ff">Bubble</text>
+    <rect x="141" y="8" width="215" height="43" rx="10" fill="#171326" stroke="#3e305b"/><text x="248.5" y="35" fill="#c9c4ff">APIs &amp; Webhooks</text>
+    <rect x="367" y="8" width="130" height="43" rx="10" fill="#171326" stroke="#3e305b"/><text x="432" y="35" fill="#bfb4ff">Stripe</text>
+    <rect x="508" y="8" width="130" height="43" rx="10" fill="#171326" stroke="#3e305b"/><text x="573" y="35" fill="#f0b1cf">Twilio</text>
+    <rect x="649" y="8" width="130" height="43" rx="10" fill="#171326" stroke="#3e305b"/><text x="714" y="35" fill="#d8d3e2">GitHub</text>
+  </g>
+</svg>
