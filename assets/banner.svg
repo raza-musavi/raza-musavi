@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
+  <title id="title">Muhammad Reza — building useful things for the web</title>
+  <desc id="desc">A purple developer banner with moving connection dots, a softly glowing background, and animated terminal text. Web apps, automation, and integrations.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#101024"/><stop offset=".6" stop-color="#18132f"/><stop offset="1" stop-color="#29204e"/>
+    </linearGradient>
+    <radialGradient id="glow"><stop stop-color="#8c5cf4" stop-opacity=".23"/><stop offset="1" stop-color="#8c5cf4" stop-opacity="0"/></radialGradient>
+    <linearGradient id="accent"><stop stop-color="#a78bfa"/><stop offset="1" stop-color="#67e8f9"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#b8a5ec" stroke-opacity=".045"/></pattern>
+    <clipPath id="round"><rect width="1200" height="380" rx="24"/></clipPath>
+    <clipPath id="typing"><rect class="typing" x="760" y="174" width="286" height="29"/></clipPath>
+  </defs>
+  <style>
+    .ui{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif}
+    .mono{font-family:'DejaVu Sans Mono',Consolas,monospace}
+    .pulse{animation:pulse 7s ease-in-out infinite;transform-origin:930px 160px}
+    .typing{animation:typing 9s steps(22,end) infinite}
+    .cursor{animation:blink 1s step-end infinite}
+    .signal{animation:signal 7s ease-in-out infinite}
+    .signal2{animation:signal2 8s ease-in-out infinite}
+    @keyframes pulse{0%,100%{opacity:.65}50%{opacity:1}}
+    @keyframes typing{0%,8%{width:0}48%,85%{width:286px}98%,100%{width:0}}
+    @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+    @keyframes signal{0%{transform:translateX(0);opacity:0}15%{opacity:1}85%{opacity:1}100%{transform:translateX(400px);opacity:0}}
+    @keyframes signal2{0%{transform:translateX(0);opacity:0}15%{opacity:1}85%{opacity:1}100%{transform:translateX(-350px);opacity:0}}
+    @media(prefers-reduced-motion:reduce){.pulse,.typing,.cursor,.signal,.signal2{animation:none}.signal,.signal2{opacity:.5}}
+  </style>
+  <g clip-path="url(#round)">
+    <rect width="1200" height="380" fill="url(#bg)"/>
+    <rect width="1200" height="380" fill="url(#grid)"/>
+    <ellipse class="pulse" cx="950" cy="155" rx="470" ry="370" fill="url(#glow)"/>
+    <circle cx="1135" cy="50" r="220" fill="none" stroke="#c4b5fd" stroke-opacity=".07"/>
+    <circle cx="1135" cy="50" r="275" fill="none" stroke="#c4b5fd" stroke-opacity=".04"/>
+    <path d="M730 63H1130M750 329H1100" stroke="#a78bfa" stroke-opacity=".13"/>
+    <circle class="signal" cx="730" cy="63" r="3" fill="#c4b5fd"/>
+    <circle class="signal2" cx="1100" cy="329" r="3" fill="#67e8f9"/>
+    <rect x="58" y="62" width="176" height="29" rx="14.5" fill="#a78bfa" fill-opacity=".10" stroke="#a78bfa" stroke-opacity=".23"/>
+    <circle cx="76" cy="76.5" r="3.5" fill="#c4b5fd"/>
+    <text class="mono" x="89" y="81" fill="#d3c5fc" font-size="11" letter-spacing="1.2">HELLO, I'M REZA</text>
+    <text class="ui" x="56" y="159" fill="#faf9ff" font-size="54" font-weight="700" letter-spacing="-1.8">Muhammad Reza</text>
+    <text class="ui" x="59" y="203" fill="#c0b4da" font-size="22">Building useful things for the web.</text>
+    <rect x="59" y="232" width="52" height="3" rx="1.5" fill="url(#accent)"/>
+    <text class="mono" x="59" y="277" fill="#a89cbe" font-size="14">Web apps / Automation / Integrations</text>
+    <text class="mono" x="59" y="326" fill="#706780" font-size="12" letter-spacing="1">BUILD. CONNECT. IMPROVE.</text>
+    <rect x="722" y="103" width="420" height="194" rx="15" fill="#050510" fill-opacity=".3"/>
+    <rect x="714" y="95" width="420" height="194" rx="15" fill="#131220" stroke="#6c548e" stroke-opacity=".5"/>
+    <path d="M714 137H1134" stroke="#30263f"/>
+    <circle cx="737" cy="117" r="4" fill="#c47b98"/><circle cx="753" cy="117" r="4" fill="#c0a377"/><circle cx="769" cy="117" r="4" fill="#7ba99a"/>
+    <text class="mono" x="1003" y="121" fill="#8d819f" font-size="11">workspace</text>
+    <text class="mono" x="739" y="193" fill="#b89aff" font-size="18">&gt;</text>
+    <g clip-path="url(#typing)"><text class="mono" x="760" y="193" fill="#e6dff5" font-size="18">build something useful</text></g>
+    <text class="mono" x="739" y="231" fill="#858096" font-size="13">idea</text>
+    <path d="M788 226H816M811 222L816 226L811 230" fill="none" stroke="#66567d"/>
+    <text class="mono" x="830" y="231" fill="#aa95d0" font-size="13">build</text>
+    <path d="M887 226H915M910 222L915 226L910 230" fill="none" stroke="#66567d"/>
+    <text class="mono" x="930" y="231" fill="#8cc8c6" font-size="13">improve</text>
+    <rect class="cursor" x="739" y="252" width="8" height="14" rx="1" fill="#b89aff"/>
+    <rect x=".5" y=".5" width="1199" height="379" rx="24" fill="none" stroke="#b095e4" stroke-opacity=".16"/>
+  </g>
+</svg>
