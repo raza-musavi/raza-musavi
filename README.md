@@ -1,39 +1,30 @@
 <p align="center">
-  <img src="./assets/banner.svg" width="100%" alt="Muhammad Reza — building useful things for the web. Animated purple developer banner." />
+  <img src="./assets/banner.svg" width="100%" alt="Muhammad Reza — animated midnight observatory with a glowing moon, orbiting satellites, shooting stars, and changing terminal text." />
 </p>
 
 <p align="center">
-  <b>Web apps &nbsp;·&nbsp; Automations &nbsp;·&nbsp; API integrations</b>
+  <b>A curious mind, a practical builder, and a little love for the night sky.</b><br />
+  <sub>I build web apps and connect tools to make everyday work simpler.</sub>
 </p>
 
 <p align="center">
-  I turn ideas into useful web apps and connect tools to make everyday work simpler.
+  <a href="https://github.com/raza-musavi?tab=repositories">Explore my repositories</a>
+  &nbsp; / &nbsp;
+  <a href="https://www.linkedin.com/in/razamusavi">Connect on LinkedIn</a>
 </p>
 
----
+### Turning ideas into working products
+
+<p>
+  <img src="./assets/workbench.svg" width="100%" alt="Animated work cards: web applications, workflow automation, and API integrations." />
+</p>
 
 ### A little about me
 
-- I build web applications with **Bubble** and custom integrations.
-- I enjoy turning repetitive tasks into **automated workflows**.
-- I work with **APIs, payments, and messaging** to connect the pieces.
-- I care about clear interfaces and the small details that make a product easier to use.
-
-### Things I like building
-
-| Web applications | Workflow automation | Connected products |
-| :--- | :--- | :--- |
-| Dashboards, tools, and useful product features. | Fewer manual steps and smoother day-to-day processes. | APIs, webhooks, payments, and messaging working together. |
-
-### My toolbox
+I work with **Bubble**, **APIs**, and **automated workflows** to turn ideas into useful features. I enjoy connecting payments, messaging, and webhooks, and I care about the details that make a product feel simple to use.
 
 <p>
-  <img src="./assets/toolbox.svg" width="680" alt="Toolbox: Bubble, APIs and Webhooks, Stripe, Twilio, GitHub" />
+  <img src="./assets/toolbox.svg" width="100%" alt="My toolbox: Bubble, APIs and Webhooks, Stripe, Twilio, GitHub." />
 </p>
 
----
-
-<p align="center">
-  <b>Good ideas deserve to become useful things.</b><br />
-  <sub>Build. Connect. Improve.</sub>
-</p>
+<p align="center"><sub>Somewhere between a good idea and its next iteration. ☾</sub></p>
