@@ -1,61 +1,60 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
-  <title id="title">Muhammad Reza — building useful things for the web</title>
-  <desc id="desc">A purple developer banner with moving connection dots, a softly glowing background, and animated terminal text. Web apps, automation, and integrations.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#101024"/><stop offset=".6" stop-color="#18132f"/><stop offset="1" stop-color="#29204e"/>
-    </linearGradient>
-    <radialGradient id="glow"><stop stop-color="#8c5cf4" stop-opacity=".23"/><stop offset="1" stop-color="#8c5cf4" stop-opacity="0"/></radialGradient>
-    <linearGradient id="accent"><stop stop-color="#a78bfa"/><stop offset="1" stop-color="#67e8f9"/></linearGradient>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#b8a5ec" stroke-opacity=".045"/></pattern>
-    <clipPath id="round"><rect width="1200" height="380" rx="24"/></clipPath>
-    <clipPath id="typing"><rect class="typing" x="760" y="174" width="286" height="29"/></clipPath>
-  </defs>
-  <style>
-    .ui{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif}
-    .mono{font-family:'DejaVu Sans Mono',Consolas,monospace}
-    .pulse{animation:pulse 7s ease-in-out infinite;transform-origin:930px 160px}
-    .typing{animation:typing 9s steps(22,end) infinite}
-    .cursor{animation:blink 1s step-end infinite}
-    .signal{animation:signal 7s ease-in-out infinite}
-    .signal2{animation:signal2 8s ease-in-out infinite}
-    @keyframes pulse{0%,100%{opacity:.65}50%{opacity:1}}
-    @keyframes typing{0%,8%{width:0}48%,85%{width:286px}98%,100%{width:0}}
-    @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
-    @keyframes signal{0%{transform:translateX(0);opacity:0}15%{opacity:1}85%{opacity:1}100%{transform:translateX(400px);opacity:0}}
-    @keyframes signal2{0%{transform:translateX(0);opacity:0}15%{opacity:1}85%{opacity:1}100%{transform:translateX(-350px);opacity:0}}
-    @media(prefers-reduced-motion:reduce){.pulse,.typing,.cursor,.signal,.signal2{animation:none}.signal,.signal2{opacity:.5}}
-  </style>
-  <g clip-path="url(#round)">
-    <rect width="1200" height="380" fill="url(#bg)"/>
-    <rect width="1200" height="380" fill="url(#grid)"/>
-    <ellipse class="pulse" cx="950" cy="155" rx="470" ry="370" fill="url(#glow)"/>
-    <circle cx="1135" cy="50" r="220" fill="none" stroke="#c4b5fd" stroke-opacity=".07"/>
-    <circle cx="1135" cy="50" r="275" fill="none" stroke="#c4b5fd" stroke-opacity=".04"/>
-    <path d="M730 63H1130M750 329H1100" stroke="#a78bfa" stroke-opacity=".13"/>
-    <circle class="signal" cx="730" cy="63" r="3" fill="#c4b5fd"/>
-    <circle class="signal2" cx="1100" cy="329" r="3" fill="#67e8f9"/>
-    <rect x="58" y="62" width="176" height="29" rx="14.5" fill="#a78bfa" fill-opacity=".10" stroke="#a78bfa" stroke-opacity=".23"/>
-    <circle cx="76" cy="76.5" r="3.5" fill="#c4b5fd"/>
-    <text class="mono" x="89" y="81" fill="#d3c5fc" font-size="11" letter-spacing="1.2">HELLO, I'M REZA</text>
-    <text class="ui" x="56" y="159" fill="#faf9ff" font-size="54" font-weight="700" letter-spacing="-1.8">Muhammad Reza</text>
-    <text class="ui" x="59" y="203" fill="#c0b4da" font-size="22">Building useful things for the web.</text>
-    <rect x="59" y="232" width="52" height="3" rx="1.5" fill="url(#accent)"/>
-    <text class="mono" x="59" y="277" fill="#a89cbe" font-size="14">Web apps / Automation / Integrations</text>
-    <text class="mono" x="59" y="326" fill="#706780" font-size="12" letter-spacing="1">BUILD. CONNECT. IMPROVE.</text>
-    <rect x="722" y="103" width="420" height="194" rx="15" fill="#050510" fill-opacity=".3"/>
-    <rect x="714" y="95" width="420" height="194" rx="15" fill="#131220" stroke="#6c548e" stroke-opacity=".5"/>
-    <path d="M714 137H1134" stroke="#30263f"/>
-    <circle cx="737" cy="117" r="4" fill="#c47b98"/><circle cx="753" cy="117" r="4" fill="#c0a377"/><circle cx="769" cy="117" r="4" fill="#7ba99a"/>
-    <text class="mono" x="1003" y="121" fill="#8d819f" font-size="11">workspace</text>
-    <text class="mono" x="739" y="193" fill="#b89aff" font-size="18">&gt;</text>
-    <g clip-path="url(#typing)"><text class="mono" x="760" y="193" fill="#e6dff5" font-size="18">build something useful</text></g>
-    <text class="mono" x="739" y="231" fill="#858096" font-size="13">idea</text>
-    <path d="M788 226H816M811 222L816 226L811 230" fill="none" stroke="#66567d"/>
-    <text class="mono" x="830" y="231" fill="#aa95d0" font-size="13">build</text>
-    <path d="M887 226H915M910 222L915 226L910 230" fill="none" stroke="#66567d"/>
-    <text class="mono" x="930" y="231" fill="#8cc8c6" font-size="13">improve</text>
-    <rect class="cursor" x="739" y="252" width="8" height="14" rx="1" fill="#b89aff"/>
-    <rect x=".5" y=".5" width="1199" height="379" rx="24" fill="none" stroke="#b095e4" stroke-opacity=".16"/>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" role="img" aria-labelledby="title desc">
+<title id="title">Muhammad Reza — a midnight observatory for ideas</title>
+<desc id="desc">Animated stars, a glowing moon, orbiting satellites, shooting stars, and a terminal that cycles through building, connecting, and automating. Web apps, automation, integrations.</desc>
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#090e20"/><stop offset=".52" stop-color="#17122e"/><stop offset="1" stop-color="#25204b"/></linearGradient>
+<radialGradient id="nebula"><stop stop-color="#935cff" stop-opacity=".38"/><stop offset="1" stop-color="#935cff" stop-opacity="0"/></radialGradient>
+<radialGradient id="moon"><stop stop-color="#fdf3ff"/><stop offset=".65" stop-color="#ddd3ff"/><stop offset="1" stop-color="#a894ea"/></radialGradient>
+<linearGradient id="shine"><stop stop-color="#c4a0ff"/><stop offset=".5" stop-color="#f2ddff"/><stop offset="1" stop-color="#73e3ea"/></linearGradient>
+<linearGradient id="trail"><stop stop-color="#c5b2ff" stop-opacity="0"/><stop offset="1" stop-color="#e4d9ff"/></linearGradient>
+<clipPath id="frame"><rect width="1200" height="460" rx="26"/></clipPath>
+<clipPath id="type"><rect class="type" x="812" y="352" width="311" height="28"/></clipPath>
+<clipPath id="moonclip"><circle cx="942" cy="171" r="58"/></clipPath>
+</defs>
+<style>
+.ui{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif}.mono{font-family:'DejaVu Sans Mono',Consolas,monospace}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+</style><style>
+.star{animation:twinkle 5s ease-in-out infinite}.nebula{animation:breath 10s ease-in-out infinite}.orbit{transform-origin:942px 171px;animation:orbit 22s linear infinite}.orbit2{transform-origin:942px 171px;animation:orbit 31s linear infinite reverse}.moon-group{animation:float 8s ease-in-out infinite}.shoot{animation:shoot 9s ease-in infinite}.shoot2{animation:shoot 13s ease-in infinite;animation-delay:-5s}.type{animation:type 6s steps(25,end) infinite}.line1{animation:line1 18s step-end infinite}.line2{opacity:0;animation:line2 18s step-end infinite}.line3{opacity:0;animation:line3 18s step-end infinite}.cursor{animation:blink 1s step-end infinite}.waves{animation:wave 9s ease-in-out infinite}.tiny{animation:twinkle 3s ease-in-out infinite}
+@keyframes twinkle{0%,100%{opacity:.18}50%{opacity:.95}}@keyframes breath{0%,100%{opacity:.55}50%{opacity:1}}@keyframes orbit{to{transform:rotate(360deg)}}@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+@keyframes shoot{0%,68%{opacity:0;transform:translate(0,0)}70%{opacity:1}83%{opacity:0;transform:translate(380px,160px)}100%{opacity:0;transform:translate(380px,160px)}}
+@keyframes type{0%,5%{width:0}48%,86%{width:311px}98%,100%{width:0}}@keyframes line1{0%,33.32%{opacity:1}33.33%,100%{opacity:0}}@keyframes line2{0%,33.32%{opacity:0}33.33%,66.65%{opacity:1}66.66%,100%{opacity:0}}@keyframes line3{0%,66.65%{opacity:0}66.66%,100%{opacity:1}}@keyframes blink{50%{opacity:0}}@keyframes wave{0%,100%{transform:translateY(0)}50%{transform:translateY(10px)}}
+@media(prefers-reduced-motion:reduce){.line1{opacity:1}.line2,.line3,.shoot,.shoot2{opacity:0}.star{opacity:.5}}
+</style>
+<g clip-path="url(#frame)">
+<rect width="1200" height="460" fill="url(#bg)"/>
+<ellipse class="nebula" cx="912" cy="195" rx="415" ry="330" fill="url(#nebula)"/>
+<circle class="star" cx="812" cy="316" r="1" fill="#dbd2ff" style="animation-delay:-5.5s;animation-duration:3.7s"/><circle class="star" cx="374" cy="361" r="0.8" fill="#dbd2ff" style="animation-delay:-2.1s;animation-duration:7.0s"/><circle class="star" cx="608" cy="388" r="0.8" fill="#dbd2ff" style="animation-delay:-3.9s;animation-duration:6.5s"/><circle class="star" cx="264" cy="32" r="1" fill="#dbd2ff" style="animation-delay:-0.3s;animation-duration:6.0s"/><circle class="star" cx="937" cy="367" r="1.4" fill="#dbd2ff" style="animation-delay:-3.5s;animation-duration:7.0s"/><circle class="star" cx="1040" cy="419" r="1" fill="#dbd2ff" style="animation-delay:-2.4s;animation-duration:4.3s"/><circle class="star" cx="433" cy="361" r="1" fill="#dbd2ff" style="animation-delay:-3.7s;animation-duration:4.0s"/><circle class="star" cx="1070" cy="409" r="1" fill="#dbd2ff" style="animation-delay:-3.3s;animation-duration:4.0s"/><circle class="star" cx="829" cy="123" r="1.4" fill="#dbd2ff" style="animation-delay:-4.2s;animation-duration:4.9s"/><circle class="star" cx="695" cy="146" r="1" fill="#dbd2ff" style="animation-delay:-1.8s;animation-duration:6.3s"/><circle class="star" cx="727" cy="145" r="1.4" fill="#dbd2ff" style="animation-delay:-6.8s;animation-duration:6.5s"/><circle class="star" cx="668" cy="242" r="1.8" fill="#dbd2ff" style="animation-delay:-1.5s;animation-duration:3.4s"/><circle class="star" cx="1101" cy="227" r="1.8" fill="#dbd2ff" style="animation-delay:-1.1s;animation-duration:4.1s"/><circle class="star" cx="789" cy="168" r="1" fill="#dbd2ff" style="animation-delay:-4.6s;animation-duration:6.6s"/><circle class="star" cx="832" cy="167" r="1.4" fill="#dbd2ff" style="animation-delay:-3.8s;animation-duration:5.7s"/><circle class="star" cx="788" cy="181" r="0.8" fill="#dbd2ff" style="animation-delay:-4.2s;animation-duration:3.1s"/><circle class="star" cx="975" cy="423" r="0.8" fill="#dbd2ff" style="animation-delay:-5.8s;animation-duration:3.9s"/><circle class="star" cx="127" cy="75" r="0.8" fill="#dbd2ff" style="animation-delay:-6.6s;animation-duration:6.7s"/><circle class="star" cx="1168" cy="376" r="1.8" fill="#dbd2ff" style="animation-delay:-6.7s;animation-duration:6.6s"/><circle class="star" cx="660" cy="71" r="1" fill="#dbd2ff" style="animation-delay:-6.2s;animation-duration:6.1s"/><circle class="star" cx="956" cy="253" r="1.8" fill="#dbd2ff" style="animation-delay:-4.1s;animation-duration:7.0s"/><circle class="star" cx="503" cy="346" r="1" fill="#dbd2ff" style="animation-delay:-5.3s;animation-duration:4.2s"/><circle class="star" cx="1001" cy="318" r="1.4" fill="#dbd2ff" style="animation-delay:-0.1s;animation-duration:4.8s"/><circle class="star" cx="346" cy="41" r="1" fill="#dbd2ff" style="animation-delay:-5.8s;animation-duration:3.8s"/><circle class="star" cx="491" cy="24" r="1" fill="#dbd2ff" style="animation-delay:-5.1s;animation-duration:4.9s"/><circle class="star" cx="1157" cy="162" r="0.8" fill="#dbd2ff" style="animation-delay:-5.3s;animation-duration:5.5s"/><circle class="star" cx="1070" cy="219" r="1.4" fill="#dbd2ff" style="animation-delay:-6.5s;animation-duration:4.4s"/><circle class="star" cx="954" cy="200" r="1.8" fill="#dbd2ff" style="animation-delay:-3.7s;animation-duration:4.7s"/><circle class="star" cx="97" cy="73" r="1" fill="#dbd2ff" style="animation-delay:-3.4s;animation-duration:6.9s"/><circle class="star" cx="646" cy="342" r="0.8" fill="#dbd2ff" style="animation-delay:-2.9s;animation-duration:4.4s"/><circle class="star" cx="429" cy="378" r="1" fill="#dbd2ff" style="animation-delay:-4.5s;animation-duration:6.8s"/><circle class="star" cx="1092" cy="127" r="1.4" fill="#dbd2ff" style="animation-delay:-2.7s;animation-duration:5.8s"/><circle class="star" cx="1022" cy="410" r="1.8" fill="#dbd2ff" style="animation-delay:-6.0s;animation-duration:5.1s"/><circle class="star" cx="500" cy="402" r="1.4" fill="#dbd2ff" style="animation-delay:-0.3s;animation-duration:6.9s"/><circle class="star" cx="529" cy="349" r="1" fill="#dbd2ff" style="animation-delay:-3.2s;animation-duration:6.1s"/>
+<g class="shoot"><path d="M580 31L681 73" stroke="url(#trail)" stroke-width="2"/><circle cx="681" cy="73" r="2" fill="#f3ebff"/></g>
+<g class="shoot2"><path d="M300 88L375 120" stroke="url(#trail)" stroke-width="1.5"/><circle cx="375" cy="120" r="1.5" fill="#f3ebff"/></g>
+<path d="M698 78L744 110L712 173L764 236L722 283" fill="none" stroke="#c0aaff" stroke-opacity=".16" stroke-dasharray="3 5"/>
+<g fill="#a68cdb"><circle cx="698" cy="78" r="2"/><circle cx="744" cy="110" r="2"/><circle cx="712" cy="173" r="2"/><circle cx="764" cy="236" r="2"/></g>
+<rect x="57" y="55" width="259" height="30" rx="15" fill="#be9cff" fill-opacity=".07" stroke="#b89af1" stroke-opacity=".24"/>
+<circle class="tiny" cx="76" cy="70" r="3.4" fill="#76e0d0"/>
+<text class="mono" x="91" y="74" font-size="11" letter-spacing="1.2" fill="#d4c1f6">RAZA-MUSAVI / DEVELOPER</text>
+<text class="ui" x="56" y="169" font-size="57" font-weight="750" letter-spacing="-2" fill="#faf7ff">Muhammad Reza</text>
+<text class="ui" x="59" y="216" font-size="27" fill="url(#shine)" font-weight="500">Turning ideas into useful things.</text>
+<text class="ui" x="60" y="252" font-size="17" fill="#aa9ebe">Web apps. Thoughtful automation. Connected products.</text>
+<g class="ui" font-size="13" fill="#d2c5ee"><rect x="59" y="293" width="112" height="33" rx="16.5" fill="#a582f5" fill-opacity=".10" stroke="#8063b6" stroke-opacity=".36"/><text x="82" y="314">Web apps</text><rect x="182" y="293" width="126" height="33" rx="16.5" fill="#a582f5" fill-opacity=".10" stroke="#8063b6" stroke-opacity=".36"/><text x="202" y="314">Automation</text><rect x="319" y="293" width="128" height="33" rx="16.5" fill="#71dcd0" fill-opacity=".06" stroke="#71dcd0" stroke-opacity=".22"/><text x="339" y="314" fill="#a6dfdb">Integrations</text></g>
+<text class="mono" x="61" y="388" font-size="11" letter-spacing="2.4" fill="#8e82a8">CURIOUS MIND. PRACTICAL BUILDER.</text>
+<g class="moon-group">
+<circle cx="942" cy="171" r="91" fill="#cdb1ff" fill-opacity=".025"/><circle cx="942" cy="171" r="75" fill="#cdb1ff" fill-opacity=".035"/>
+<ellipse cx="942" cy="171" rx="165" ry="65" transform="rotate(-24 942 171)" fill="none" stroke="#b99af2" stroke-opacity=".3"/>
+<ellipse cx="942" cy="171" rx="118" ry="114" fill="none" stroke="#b99af2" stroke-opacity=".16" stroke-dasharray="2 8"/>
+<g class="orbit"><circle cx="942" cy="53" r="5" fill="#89e3dc"/><circle cx="942" cy="53" r="10" fill="#89e3dc" fill-opacity=".12"/></g>
+<g class="orbit2"><circle cx="799" cy="171" r="4" fill="#d6afff"/><path d="M793 171H805M799 165V177" stroke="#d6afff" stroke-width="1"/></g>
+<circle cx="942" cy="171" r="58" fill="url(#moon)"/>
+<g clip-path="url(#moonclip)" fill="#806cb4" fill-opacity=".16"><circle cx="923" cy="157" r="12"/><circle cx="953" cy="193" r="16"/><circle cx="922" cy="204" r="7"/><circle cx="961" cy="144" r="8"/><circle cx="906" cy="177" r="5"/></g>
+<path d="M967 118A58 58 0 0 1 966 224A49 49 0 0 0 967 118" fill="#696087" fill-opacity=".22"/>
+<path d="M1065 105V121M1057 113H1073" stroke="#d1b0ff" stroke-opacity=".6"/><path d="M849 250V260M844 255H854" stroke="#80d7d5" stroke-opacity=".6"/>
+</g>
+<rect x="774" y="298" width="367" height="111" rx="15" fill="#090b18" fill-opacity=".83" stroke="#b59cde" stroke-opacity=".28"/>
+<path d="M774 328H1141" stroke="#b59cde" stroke-opacity=".12"/>
+<g><circle cx="793" cy="313" r="3" fill="#c58aa7"/><circle cx="804" cy="313" r="3" fill="#c6ad7b"/><circle cx="815" cy="313" r="3" fill="#83bbae"/></g>
+<text class="mono" x="1060" y="316" font-size="9" fill="#8f839f">reza@orbit</text>
+<text class="mono" x="793" y="372" font-size="16" fill="#a78bfa">&gt;</text>
+<g clip-path="url(#type)" class="mono" font-size="16" fill="#e4d9f6"><text class="line1" x="812" y="372">build useful products</text><text class="line2" x="812" y="372">connect the dots</text><text class="line3" x="812" y="372">automate the ordinary</text></g>
+<text class="mono" x="793" y="393" font-size="10" fill="#6eadac">// small details. better experiences.</text>
+<g class="waves"><path d="M0 437Q240 395 465 435T900 429T1200 431V460H0Z" fill="#9171d8" fill-opacity=".08"/><path d="M0 450Q220 416 470 446T935 439T1200 445V460H0Z" fill="#8be7e1" fill-opacity=".05"/></g>
+<rect x=".5" y=".5" width="1199" height="459" rx="26" fill="none" stroke="#b9a0e8" stroke-opacity=".2"/>
+</g></svg>
