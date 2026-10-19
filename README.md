@@ -31,7 +31,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/raza-musavi"><img src="https://streak-stats.demolab.com/?user=raza-musavi&amp;theme=tokyonight&amp;hide_border=true&amp;border_radius=16&amp;background=0D1324&amp;ring=C4A0FF&amp;fire=8BE2D9&amp;currStreakLabel=C4A0FF&amp;sideLabels=C4A0FF&amp;currStreakNum=C9C0DC&amp;sideNums=C9C0DC&amp;dates=998AAC" width="70%" alt="Contribution streak: total contributions, current streak, and longest streak" /></a>
+  <a href="https://github.com/raza-musavi"><img src="https://streak-stats.demolab.com/?user=raza-musavi&amp;timezone=Asia%2FKarachi&amp;theme=tokyonight&amp;hide_border=true&amp;border_radius=16&amp;background=0D1324&amp;ring=C4A0FF&amp;fire=8BE2D9&amp;currStreakLabel=C4A0FF&amp;sideLabels=C4A0FF&amp;currStreakNum=C9C0DC&amp;sideNums=C9C0DC&amp;dates=998AAC" width="70%" alt="Contribution streak: total contributions, current streak, and longest streak" /></a>
 </p>
 
 <p align="center"><sub>Stats and languages use public repositories; streaks follow the contributions shown on my profile.</sub></p>
